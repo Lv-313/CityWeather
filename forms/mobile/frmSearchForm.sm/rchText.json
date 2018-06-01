@@ -39,7 +39,7 @@
     "id": "rchText",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "c2118e0d39d644cfaf752b67e079315a",
     "linkskin": "sf46f249da074136acc0e3b891f6c579",
     "name": "kony.ui.RichText",

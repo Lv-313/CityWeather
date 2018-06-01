@@ -22,7 +22,7 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "Write city",
     "_skin_": "s646fe30a3544c3289e68719112a217f",
     "_text_": "",
     "_top_": {
@@ -52,6 +52,7 @@
     "contentalignment": 4,
     "focusskin": "sc7b8839f3394ab2b726dfa01ebc9e78",
     "id": "txtSearchBox",
+    "ide_onTextChange": "AS_TextField_g6b63931c1da4a83bb14b319c7104134",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,

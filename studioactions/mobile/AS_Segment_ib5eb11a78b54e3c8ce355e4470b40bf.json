@@ -1,0 +1,24 @@
+{
+    "AS_Segment_ib5eb11a78b54e3c8ce355e4470b40bf": {
+        "id": "AS_Segment_ib5eb11a78b54e3c8ce355e4470b40bf",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmSearchForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef270d69d76849deb51baebe049dfd7a"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

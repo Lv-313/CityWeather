@@ -1,9 +1,8 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -23,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s01773af7de24393a5edf45f062a41c4",
+    "_skin_": "sb9ba0ba7b604cc3978fe7953a611759",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -36,30 +35,31 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxSearchBox",
-        "segSearchCity",
-        "lblMessage",
-        "btnGetCities",
-        "rchText"
+        "lblSearchCity"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flxCityTempController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxSearch",
-    "ide_onClick": "AS_FlexContainer_gef274a357c34e07adffe73812bace0e",
+    "id": "flxCityTemp",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ic1530401b4c4f7fb3078f7741694bbe",
-    "layouttype": 4,
+    "kuid": "af530842729545f798a0e85546a676a4",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmSearchForm",
-    "pf": "frmSearchForm",
+    "parent": "tempSearch",
+    "pf": "tempSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

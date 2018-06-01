@@ -1,0 +1,36 @@
+{
+    "AS_Label_cd076449b94549b5b0a5c5b42cc96d0d": {
+        "id": "AS_Label_cd076449b94549b5b0a5c5b42cc96d0d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "FBox0h40939fdee4f4f",
+            "type": "templates",
+            "platform": "",
+            "KUID": "ja55fdda742e4e0d94a9076d238613ca"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___e13b38f381ad4909a57287a659bccc72",
+            "type": "INVOKE_FUNCTION",
+            "display": "<>",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

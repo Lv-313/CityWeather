@@ -1,10 +1,16 @@
 {
-    "AS_Button_a45c38c70fe044d2aa9efcacdb87d9de": {
-        "id": "AS_Button_a45c38c70fe044d2aa9efcacdb87d9de",
+    "AS_Segment_de0b89d7513b4e278e6bf548ed2fc5b2": {
+        "id": "AS_Segment_de0b89d7513b4e278e6bf548ed2fc5b2",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
         }],
         "contextObj": {
             "name": "frmSearchForm",
@@ -14,10 +20,10 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___bfd6c084030c44b9836cf6203e945ab9",
+            "id": "INVOKE_FUNCTION___bfa4a89b13cf465c9b24a2a36c589392",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "showNewCity",
-            "display": "showNewCity",
+            "sequenceKUID": "choiseCity",
+            "display": "choiseCity",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

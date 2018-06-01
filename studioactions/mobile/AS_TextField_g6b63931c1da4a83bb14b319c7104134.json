@@ -1,10 +1,13 @@
 {
-    "AS_Button_a45c38c70fe044d2aa9efcacdb87d9de": {
-        "id": "AS_Button_a45c38c70fe044d2aa9efcacdb87d9de",
+    "AS_TextField_g6b63931c1da4a83bb14b319c7104134": {
+        "id": "AS_TextField_g6b63931c1da4a83bb14b319c7104134",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
         }],
         "contextObj": {
             "name": "frmSearchForm",
@@ -14,10 +17,10 @@
         },
         "language": "js",
         "actions": [{
-            "id": "INVOKE_FUNCTION___bfd6c084030c44b9836cf6203e945ab9",
+            "id": "INVOKE_FUNCTION___dfd674b4a9ed49fd88c555b8e9e42271",
             "type": "INVOKE_FUNCTION",
-            "sequenceKUID": "showNewCity",
-            "display": "showNewCity",
+            "sequenceKUID": "searchCity",
+            "display": "searchCity",
             "inputparams": [],
             "parentId": null,
             "callbackType": null,

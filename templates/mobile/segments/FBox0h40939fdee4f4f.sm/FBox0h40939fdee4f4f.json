@@ -1,13 +1,8 @@
 {
     "DNDConfig": null,
-    "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "40dp"
     },
     "_margin_": [
         0,
@@ -23,11 +18,6 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s01773af7de24393a5edf45f062a41c4",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_width_": {
         "type": "string",
         "value": "100%"
@@ -35,31 +25,31 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "flxSearchBox",
-        "segSearchCity",
-        "lblMessage",
-        "btnGetCities",
-        "rchText"
-    ],
-    "clipbounds": true,
+    "children": [],
+    "clipbounds": false,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "FBox0h40939fdee4f4fController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxSearch",
-    "ide_onClick": "AS_FlexContainer_gef274a357c34e07adffe73812bace0e",
+    "id": "FBox0h40939fdee4f4f",
     "info": null,
+    "isGeneratedTemplate": true,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ic1530401b4c4f7fb3078f7741694bbe",
+    "kuid": "ja55fdda742e4e0d94a9076d238613ca",
     "layouttype": 4,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmSearchForm",
-    "pf": "frmSearchForm",
+    "pf": "FBox0h40939fdee4f4f",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

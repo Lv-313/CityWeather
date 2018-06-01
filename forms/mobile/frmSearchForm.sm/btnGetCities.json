@@ -23,16 +23,20 @@
         0
     ],
     "_skin_": "sf952d12fa9b49cf918c3bf531f494a9",
-    "_text_": "Button",
+    "_text_": "Show added city",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "2%"
     },
     "_width_": {
         "type": "string",
         "value": "260dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
