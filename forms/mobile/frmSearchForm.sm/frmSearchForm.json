@@ -30,8 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxSearch",
-        "segSearchRes"
+        "flxSearch"
     ],
     "containerweight": 100,
     "controllerInfo": {

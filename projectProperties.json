@@ -7,16 +7,16 @@
     "apppackagekey": "",
     "appaddrkey": "",
     "nativeContainerProperties": {
-        "isModified": false,
-        "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
+        "isModified": true,
+        "isEnableJSContaineriOS": true,
+        "isEnableJSContainer": true
     },
     "appnamekey": "cityWeatherApp",
     "currentgaversion": "8.2.4",
     "appversionkey": "1.0.0",
     "project.type": "js",
-    "startupformkey": "f2f9c88fec27421ab9140cb555063d78",
+    "startupformkey": "ef270d69d76849deb51baebe049dfd7a",
     "enableCustomData": false,
     "vendornamekey": "KonyLabs",
     "createdgaversion": "8.2.4",
@@ -190,5 +190,12 @@
     "mwportkey": "",
     "category": "app",
     "createdVizVersion": "8.2.4",
-    "mwhttpsportkey": ""
+    "mwhttpsportkey": "",
+    "kfAppInfo": {
+        "990b7119-9591-4481-a42a-75650efa137e": {
+            "id": "eb018851-90fc-4c5b-a0b4-eb3298e0a5cd",
+            "baseId": "eb018851-90fc-4c5b-a0b4-eb3298e0a5cd",
+            "version": "1.0"
+        }
+    }
 }

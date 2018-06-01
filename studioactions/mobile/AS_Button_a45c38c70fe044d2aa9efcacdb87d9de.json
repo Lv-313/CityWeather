@@ -1,0 +1,28 @@
+{
+    "AS_Button_a45c38c70fe044d2aa9efcacdb87d9de": {
+        "id": "AS_Button_a45c38c70fe044d2aa9efcacdb87d9de",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSearchForm",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ef270d69d76849deb51baebe049dfd7a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___abccdfe1beaa4ed8b6b61218453126e1",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCity",
+            "display": "getCity",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

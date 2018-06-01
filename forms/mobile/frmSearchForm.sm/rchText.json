@@ -1,13 +1,14 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizRichText",
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "190dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "3dp"
     },
     "_margin_": [
         0,
@@ -15,48 +16,38 @@
         0,
         0
     ],
-    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_percent_": true,
-    "_skin_": "s01773af7de24393a5edf45f062a41c4",
+    "_skin_": "sb4afee964a74787bdc85458d1d056ff",
+    "_text_": "RichText",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "150dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
+    "_wrapping_": 2,
     "canUpdateUI": true,
-    "children": [
-        "flxSearchBox",
-        "rchText",
-        "btnGetCities"
-    ],
-    "clipbounds": true,
     "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxSearch",
+    "contentalignment": 4,
+    "id": "rchText",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ic1530401b4c4f7fb3078f7741694bbe",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "frmSearchForm",
+    "kuid": "c2118e0d39d644cfaf752b67e079315a",
+    "linkskin": "sf46f249da074136acc0e3b891f6c579",
+    "name": "kony.ui.RichText",
+    "parent": "flxSearch",
     "pf": "frmSearchForm",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "wType": "RichText",
+    "widgetalignment": 5,
     "zindex": 1
 }

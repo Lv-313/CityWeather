@@ -1,0 +1,21 @@
+{
+    "AS_Button_e6a83e39fdad469e8fa470a09c7b454d": {
+        "id": "AS_Button_e6a83e39fdad469e8fa470a09c7b454d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_de84bd0e98124084a2138ebe011d6a1c",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getCity",
+            "display": "getCity",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

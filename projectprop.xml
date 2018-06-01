@@ -35,4 +35,14 @@
     <attributes name="mwportkey" value="80"/>
     <attributes name="andwearapppackagekey" value="com.orgname.cityWeatherApp"/>
     <attributes name="mwhttpsportkey" value="443"/>
+    <attributes name="APPLICATION_THEME" value="default"/>
+    <attributes name="SELECTED_THEME" value="default"/>
+    <attributes name="lastmodifiedtime" value="0"/>
+    <attributes name="Server side mobile web" value="false"/>
+    <attributes name="cloud_url" value="https://app-factory-dev.konycloud.com"/>
+    <attributes name="cloud_env_name" value="SoftServe-App Factory Dev"/>
+    <attributes name="cloud_env_GUID" value="13a3f619-2156-49f0-a478-14a5ac801e27"/>
+    <attributes name="cloud_account_id" value="100007931"/>
+    <attributes name="cloud_account_guid" value="990b7119-9591-4481-a42a-75650efa137e"/>
+    <attributes name="fabric_runtime_app_version" value="1.0"/>
 </properties>
