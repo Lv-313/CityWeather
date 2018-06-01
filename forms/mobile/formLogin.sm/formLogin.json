@@ -30,13 +30,13 @@
     },
     "canUpdateUI": true,
     "children": [
-        "FlexContainer0e4a025c97a584b"
+        "flxLogin"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "Form1Controller"
+            "name": "formLoginController"
         }
     },
     "currentLocale": "default",
@@ -46,7 +46,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "Form1",
+    "id": "formLogin",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
