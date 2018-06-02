@@ -52,7 +52,7 @@
     "mode": "A",
     "name": "kony.ui.TextBox2",
     "parent": "flxLogin",
-    "pf": "formLogin",
+    "pf": "login",
     "placeholderskin": "s457113cfa8448be87f5981938a5f6d0",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

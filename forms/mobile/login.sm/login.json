@@ -46,7 +46,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "formLogin",
+    "id": "login",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

@@ -1,8 +1,8 @@
 {
     "APPLICATION_THEME": "default",
     "appaddrkey": "",
-    "appidkey": "cityWeatherApp",
-    "appnamekey": "cityWeatherApp",
+    "appidkey": "cityWeather",
+    "appnamekey": "cityWeather",
     "apppackagekey": "",
     "appversionkey": "1.0.0",
     "build": "debug",
