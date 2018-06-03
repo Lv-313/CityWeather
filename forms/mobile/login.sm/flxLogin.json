@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "723dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "s01773af7de24393a5edf45f062a41c4",
     "_top_": {
         "type": "string",
-        "value": "4dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",

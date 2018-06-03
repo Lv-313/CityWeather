@@ -1,0 +1,28 @@
+{
+    "AS_Browser_fcda37b940c64bdebc7ef7ed761b975a": {
+        "id": "AS_Browser_fcda37b940c64bdebc7ef7ed761b975a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "login",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2f9c88fec27421ab9140cb555063d78"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ecb6054f7cf84515960179d6df2a3c9d",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "login",
+            "display": "login",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

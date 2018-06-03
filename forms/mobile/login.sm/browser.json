@@ -1,0 +1,86 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizBrowser",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_type_": 3,
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "android": {
+        "render": true
+    },
+    "androidwearos": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 69,
+    "detecttelnumber": true,
+    "enablezoom": false,
+    "htmlstring": "",
+    "id": "browser",
+    "ide_onSuccess": "AS_Browser_c261e6d8f3f646be951c7ff1c2c673c9",
+    "info": null,
+    "iphone": {
+        "render": false
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "d781d05ff9f140078c2c7da861ab5e0e",
+    "margininpixel": false,
+    "method": "get",
+    "name": "kony.ui.Browser",
+    "paddinginpixel": false,
+    "parent": "login",
+    "pf": "login",
+    "requesturlconfig": {
+        "URL": "",
+        "requestMethod": "get"
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "screenlevelwidget": false,
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "url": "",
+    "wType": "Browser",
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

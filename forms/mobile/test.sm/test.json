@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6ccf6324f114db8a24e2301cd0169b9",
+    "_skin_": "s4f79705f0c94436bd4317b750ddadf0",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -30,14 +30,13 @@
     },
     "canUpdateUI": true,
     "children": [
-        "flxLogin",
-        "browser"
+        "Label0d5ca1437a91f42"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "mobile",
-            "name": "formLoginController"
+            "name": "testController"
         }
     },
     "currentLocale": "default",
@@ -47,7 +46,7 @@
     "device": "iPhoneX",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "login",
+    "id": "test",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -65,7 +64,7 @@
             "titleBarAttributes": {
                 "barStyle": 0,
                 "hidesBackButton": false,
-                "kuid": "fe452b162b054b1faf5546ee84265498",
+                "kuid": "fa735c49e41c4720803f1c41f63b66cf",
                 "leftBarButtonItems": [],
                 "leftItemsSupplementBackButton": true,
                 "prompt": "",
@@ -76,7 +75,7 @@
                         "info": {
                             "title": "Edit"
                         },
-                        "kuid": "acf3303f62b24444a8fa96782cf31444",
+                        "kuid": "ge2d71e51eb9438c940a861a21748b02",
                         "style": 0,
                         "tintColor": "4b88f100",
                         "type": 1
@@ -93,7 +92,7 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "f2f9c88fec27421ab9140cb555063d78",
+    "kuid": "fd3ebdf831b244519ab3428b0dbb7c82",
     "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
