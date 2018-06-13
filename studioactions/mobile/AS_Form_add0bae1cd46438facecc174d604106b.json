@@ -1,0 +1,28 @@
+{
+    "AS_Form_add0bae1cd46438facecc174d604106b": {
+        "id": "AS_Form_add0bae1cd46438facecc174d604106b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCities",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2f9c88fec27421ab9140cb555063d78"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___id4f2319ee1844a1a5ef7ba4939509db",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fetchData",
+            "display": "fetchData",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

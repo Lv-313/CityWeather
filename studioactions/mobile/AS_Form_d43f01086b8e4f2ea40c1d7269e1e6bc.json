@@ -1,0 +1,18 @@
+{
+    "AS_Form_d43f01086b8e4f2ea40c1d7269e1e6bc": {
+        "id": "AS_Form_d43f01086b8e4f2ea40c1d7269e1e6bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCities",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2f9c88fec27421ab9140cb555063d78"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "56dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sf952d12fa9b49cf918c3bf531f494a9",
+    "_text_": "Add new city",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s625645ff8b848c79d426ec7719c09e5",
+    "id": "addNewCity",
+    "ide_onClick": "AS_Button_dd0a310792b44cedacc3e017e14cc86c",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a628995778b2483d8e415c47ac2ba5cb",
+    "name": "kony.ui.Button",
+    "parent": "frmCities",
+    "pf": "frmCities",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}
