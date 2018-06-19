@@ -1,0 +1,69 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "City",
+    "_skin_": "sdbdf8964616486a88cd61afd275d707",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "120dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "260dp"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "disabledSkins": {},
+    "focusskin": "sad5999dae744aeb8f85eb043a5b9f46",
+    "id": "inputSearch",
+    "ide_onDone": "AS_TextField_i530c976bfe24d9abf2ac5f0532377e4",
+    "ide_onTextChange": "AS_TextField_c9b2f30ccd5745b5b4c8fab87ea04f97",
+    "info": null,
+    "iphone": {},
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "e525bce95f7b4dc6915d45896356555f",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "frmSearch",
+    "pf": "frmSearch",
+    "placeholderskin": "s6321149baa846bb8ed57af7fdbd3e9f",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "A",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

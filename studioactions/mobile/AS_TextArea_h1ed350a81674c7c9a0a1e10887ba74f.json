@@ -1,0 +1,38 @@
+{
+    "AS_TextArea_h1ed350a81674c7c9a0a1e10887ba74f": {
+        "id": "AS_TextArea_h1ed350a81674c7c9a0a1e10887ba74f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCities",
+            "type": "forms",
+            "platform": "",
+            "KUID": "f2f9c88fec27421ab9140cb555063d78"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_OBJECT_SERVICE__eab843a618cb4b338068ed80637fbc9b",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "CoolWeatherDB",
+                "type": "objectsvcs",
+                "objectname": "locations",
+                "methodname": "get"
+            },
+            "parentId": null,
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

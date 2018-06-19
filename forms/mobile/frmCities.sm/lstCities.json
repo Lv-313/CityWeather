@@ -1,0 +1,125 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgWeather": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblMaxTemp": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblMinTemp": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "350dp"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "00",
+    "disabledSkins": {
+        "alternateRowSkin": "s8f9f188ba8e4136938e3666d7dd3c72",
+        "widgetSkin": "sfed31b070eb4354aa4515a597630188"
+    },
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "f821ef8e696b4870b5e85850c43461c5",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "lstCities",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e3030aedde4c4d0b8d866a5ec9948e9a",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmCities",
+    "pf": "frmCities",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": true,
+    "rowTemplateId": "f821ef8e696b4870b5e85850c43461c5",
+    "rowcounter": 0,
+    "rowfocusskin": "s66e9fdaf0a049f9a6a4847bbae64965",
+    "rowskin": "s6868b4b2b934a13a77cd29f17edc897",
+    "rowtemplate": "FBox0e5dd60e68b2f45",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sea5cc318a28472991024962b22d5fdb",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": null,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": true,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxTempContainer": "flxTempContainer",
+        "imgWeather": "imgWeather",
+        "lblMaxTemp": "lblMaxTemp",
+        "lblMinTemp": "lblMinTemp",
+        "lblName": "lblName"
+    },
+    "zindex": 1
+}
