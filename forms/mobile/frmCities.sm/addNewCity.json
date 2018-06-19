@@ -6,10 +6,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "56dp"
-    },
     "_margin_": [
         6,
         6,
@@ -22,11 +18,11 @@
         0,
         0
     ],
-    "_skin_": "sf952d12fa9b49cf918c3bf531f494a9",
+    "_skin_": "s69820b66faa40d485b43f1a1b1f3a70",
     "_text_": "Add new city",
     "_top_": {
         "type": "string",
-        "value": "15dp"
+        "value": "10dp"
     },
     "_width_": {
         "type": "string",

@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6ccf6324f114db8a24e2301cd0169b9",
+    "_skin_": "s9ba8271478a4b1a947e43443b4b5114",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -30,8 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
+        "nameApp",
         "inputSearch",
-        "btnSearch",
         "lstSearch"
     ],
     "containerweight": 100,

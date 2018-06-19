@@ -1,5 +1,4 @@
 define({ 
-
   login: function () {
     const ids = kony.sdk.getCurrentInstance().getIdentityService('userstore');
     data = {
@@ -12,7 +11,7 @@ define({
         const target = new kony.mvc.Navigation('frmCities');
         target.navigate();
 	}, function(error) {
-		alert("Login failure! Blyat!\n" + JSON.stringify(error));
+		alert("Login failure!\n" + JSON.stringify(error));
     });
   }
 });

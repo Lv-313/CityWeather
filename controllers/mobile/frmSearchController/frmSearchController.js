@@ -4,12 +4,12 @@ define({
     var objSvc = kony.sdk.getCurrentInstance().getObjectService("CoolWeatherDB");
     var dataObject = new kony.sdk.dto.DataObject("cities");    
     var inp = this.view.inputSearch.text;
-    
+
     function getFilterStartWith(str) {
       var new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
       return "$filter=nm ge " + str + " and nm lt " + new_str;
     }
-    
+
     var odataUrl = getFilterStartWith(inp);
     dataObject.odataUrl = odataUrl;
     var options = {"dataObject":dataObject};
@@ -20,6 +20,17 @@ define({
     },
                  function(err){alert("Failed to fetch : \n" + JSON.stringify(err));}
                 );
+  },
+
+  searchDataTimer: function() {
+    var timerName = 'searchCitiesTimer';
+    try 
+    {
+      kony.timer.cancel(timerName);
+    }
+    catch(err)
+    {}
+    kony.timer.schedule(timerName,this.fetchData, 2, false);
   },
 
   bindData: function(data) {
@@ -58,16 +69,16 @@ define({
           kony.application.destroyForm('frmSearch');
           const target = new kony.mvc.Navigation('frmCities');
           target.navigate();
-        	},
-          	function(err){
-          		alert("Error in city creation");
-        		}
-                	);     
-      					}
-    						},
-  function(err) {
+        },
+                      function(err){
+          alert("Error in city creation");
+        }
+                     );     
+      }
+    },
+                 function(err) {
       alert("Failed to fetch : \n" + JSON.stringify(err));
     }
-    );
+                );
   }
 });

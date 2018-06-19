@@ -6,10 +6,6 @@
         "type": "string",
         "value": "40dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "58dp"
-    },
     "_margin_": [
         0,
         0,
@@ -23,15 +19,15 @@
         0
     ],
     "_placeholder_": "City",
-    "_skin_": "s646fe30a3544c3289e68719112a217f",
+    "_skin_": "sdbdf8964616486a88cd61afd275d707",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "48dp"
+        "value": "120dp"
     },
     "_width_": {
         "type": "string",
-        "value": "90%"
+        "value": "260dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
@@ -46,9 +42,13 @@
     "containerheightmode": 1,
     "containerweight": 100,
     "contentalignment": 4,
-    "focusskin": "sc7b8839f3394ab2b726dfa01ebc9e78",
+    "disabledSkins": {},
+    "focusskin": "sad5999dae744aeb8f85eb043a5b9f46",
     "id": "inputSearch",
+    "ide_onDone": "AS_TextField_i530c976bfe24d9abf2ac5f0532377e4",
+    "ide_onTextChange": "AS_TextField_c9b2f30ccd5745b5b4c8fab87ea04f97",
     "info": null,
+    "iphone": {},
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardtype": "A",
@@ -57,7 +57,7 @@
     "name": "kony.ui.TextBox2",
     "parent": "frmSearch",
     "pf": "frmSearch",
-    "placeholderskin": "s457113cfa8448be87f5981938a5f6d0",
+    "placeholderskin": "s6321149baa846bb8ed57af7fdbd3e9f",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

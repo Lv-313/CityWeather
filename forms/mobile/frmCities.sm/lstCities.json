@@ -4,11 +4,19 @@
     "__parentReadjusting__": false,
     "_data_": [
         {
-            "lblName": {
+            "imgWeather": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblMaxTemp": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             },
-            "userName": {
+            "lblMinTemp": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblName": {
                 "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
                 "text": ""
             }
@@ -16,7 +24,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "70%"
+        "value": "65%"
     },
     "_indicator_": "none",
     "_margin_": [
@@ -34,7 +42,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "10dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "string",
@@ -48,6 +56,10 @@
     },
     "containerweight": 100,
     "counter": "00",
+    "disabledSkins": {
+        "alternateRowSkin": "s8f9f188ba8e4136938e3666d7dd3c72",
+        "widgetSkin": "sfed31b070eb4354aa4515a597630188"
+    },
     "focusedindex": null,
     "focuseditem": null,
     "generatedtemplate": "f821ef8e696b4870b5e85850c43461c5",
@@ -80,11 +92,11 @@
     "pf": "frmCities",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "retainselection": false,
+    "retainselection": true,
     "rowTemplateId": "f821ef8e696b4870b5e85850c43461c5",
     "rowcounter": 0,
-    "rowfocusskin": "s77b9bb0fbd646f8a1c2a5bb27885cce",
-    "rowskin": "sdfd6bfad5e346488fbc84e12f98e649",
+    "rowfocusskin": "s66e9fdaf0a049f9a6a4847bbae64965",
+    "rowskin": "s6868b4b2b934a13a77cd29f17edc897",
     "rowtemplate": "FBox0e5dd60e68b2f45",
     "screenlevelwidget": false,
     "seccounter": 0,
@@ -94,18 +106,20 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": 0,
+    "selectedsectionindex": null,
     "selectionbehavior": "default",
-    "separatorcolor": "aaaaaa00",
-    "separatorrequired": true,
-    "separatorthickness": 1,
-    "showscrollbars": false,
+    "separatorrequired": false,
+    "separatorthickness": 0,
+    "showscrollbars": true,
     "viewtype": "tableview",
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "lblName": "lblName",
-        "userName": "userName"
+        "flxTempContainer": "flxTempContainer",
+        "imgWeather": "imgWeather",
+        "lblMaxTemp": "lblMaxTemp",
+        "lblMinTemp": "lblMinTemp",
+        "lblName": "lblName"
     },
     "zindex": 1
 }

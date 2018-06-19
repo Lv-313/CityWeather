@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_margin_": [
         1,
         1,
@@ -22,11 +18,11 @@
         0,
         0
     ],
-    "_skin_": "s0176ad6cf08449c84a00dea25251b63",
-    "_text_": "Label",
+    "_skin_": "s88e18a9ac294fa6a773f32020061e94",
+    "_text_": "Weather APP",
     "_top_": {
         "type": "string",
-        "value": "20dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "ref",
@@ -40,14 +36,13 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblName",
+    "id": "nameApp",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,13 +54,12 @@
             "wrapping": 2
         }
     },
-    "isSegmentChild": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ae2dd3b000dd4e3ca6b5645c934323ed",
+    "kuid": "a1744942c3cd44b2bac7d57bda1975c0",
     "name": "kony.ui.Label",
-    "parent": "FBox0e5dd60e68b2f45",
-    "pf": "FBox0e5dd60e68b2f45",
+    "parent": "frmSearch",
+    "pf": "frmSearch",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

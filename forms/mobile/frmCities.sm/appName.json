@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "173dp"
-    },
     "_margin_": [
         1,
         1,
@@ -22,11 +18,11 @@
         0,
         0
     ],
-    "_skin_": "s0176ad6cf08449c84a00dea25251b63",
-    "_text_": "Label",
+    "_skin_": "sd77c35ac1454721ad69e3cdea33c4c5",
+    "_text_": "Weather APP",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "50dp"
     },
     "_width_": {
         "type": "ref",
@@ -34,19 +30,19 @@
     },
     "_wrapping_": 2,
     "android": {
-        "psp": {
-            "includeFontPadding": true
-        },
         "textStyle": {
             "letterSpacing": 0,
             "strikeThrough": false
         }
     },
     "canUpdateUI": true,
-    "containerId": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "userName",
+    "id": "appName",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,21 +51,15 @@
     },
     "iphone": {
         "psp": {
-            "textCopyable": false,
             "wrapping": 2
-        },
-        "textStyle": {
-            "strikeThrough": false,
-            "strikeThroughStyle": "thick"
         }
     },
-    "isSegmentChild": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dc10ce1c7e814c23be54839c504a3d89",
+    "kuid": "e5fc5b921749470aa656bc6022808f59",
     "name": "kony.ui.Label",
-    "parent": "FBox0e5dd60e68b2f45",
-    "pf": "FBox0e5dd60e68b2f45",
+    "parent": "frmCities",
+    "pf": "frmCities",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

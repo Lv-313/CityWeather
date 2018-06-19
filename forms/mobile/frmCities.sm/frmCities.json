@@ -15,7 +15,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6ccf6324f114db8a24e2301cd0169b9",
+    "_skin_": "s38dbf28cc1141e8ad02fb15859078e8",
     "_title_": null,
     "addWidgetsdone": false,
     "allboxes": [],
@@ -30,6 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
+        "appName",
         "lstCities",
         "addNewCity"
     ],

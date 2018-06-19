@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "53dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sb62c96a455d4abc83b042c15fa6ca23",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "FBox0e5dd60e68b2f45",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "imgWeather",
+    "imagescalemode": 1,
+    "info": null,
+    "isSegmentChild": true,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "a4e686f7e543402188951e707837bba6",
+    "name": "kony.ui.Image2",
+    "parent": "flxTempContainer",
+    "pf": "FBox0e5dd60e68b2f45",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}
