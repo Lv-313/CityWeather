@@ -44,7 +44,7 @@ define({
   },
 
   create: function() {
-    var cityData = this.view.lstSearch.data[0];
+    var cityData = this.view.lstSearch.selectedRowItems;
     var objSvc = kony.sdk.getCurrentInstance().getObjectService("CoolWeatherDB");
     var dataObject = new kony.sdk.dto.DataObject("locations");
     var odataUrl = "$filter=userID eq " + getAppUserID();
@@ -60,8 +60,8 @@ define({
         alert("Sorry, but city was added");
       } else {
         dataObject.addField("userID", getAppUserID());
-        dataObject.addField("cityID", cityData.id);
-        dataObject.addField("cityName", cityData.nm);
+        dataObject.addField("cityID", cityData[0].id);
+        dataObject.addField("cityName", cityData[0].nm);
         var options = {"dataObject":dataObject};
 
         objSvc.create(options,
@@ -81,4 +81,6 @@ define({
     }
                 );
   }
+  
+  
 });

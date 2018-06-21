@@ -52,7 +52,7 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.04%"
     },
     "containerweight": 100,
     "counter": "00",
@@ -66,6 +66,7 @@
     "groupcells": false,
     "hasSections": false,
     "id": "lstCities",
+    "ide_onRowClick": "AS_Segment_f8abff1d63554838b1c0a223c1088dcc",
     "info": null,
     "ipad": {
         "psp": {
@@ -106,7 +107,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorrequired": false,
     "separatorthickness": 0,
