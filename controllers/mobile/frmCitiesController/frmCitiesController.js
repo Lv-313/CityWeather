@@ -29,7 +29,7 @@ define({
         for(let i=0; i < responseData.length; i++){
           for(let j=0; j < records.length; j++){
             if(responseData[i].cityId==records[j].cityID){
-          	  responseData[i].pk = records[j].id;    
+              responseData[i].pk = records[j].id;    
             }
           }
         } 
@@ -76,23 +76,33 @@ define({
     const target = new kony.mvc.Navigation('frmSearch');
     target.navigate();
   },
-  
-  deleteRecord: function(){
-  var cityData = this.view.lstCities.selectedRowItems;
-  var objSvc = kony.sdk.getCurrentInstance().getObjectService("CoolWeatherDB");
-  var dataObject = new kony.sdk.dto.DataObject("locations");
-  dataObject.addField("userID", getAppUserID());
-  dataObject.addField("cityID", cityData[0].cityId);
-  dataObject.addField("id", cityData[0].userPk);
-  var options = {"dataObject":dataObject};
 
-  objSvc.deleteRecord(options,
-    function(res){
-//     ????
-              },
-    function(err){alert("Failed to deleting : \n" + JSON.stringify(err));}
-  );
-}
+  deleteRecord: function(){
+    var  self = this;
+    function alertHandlerCallBck(value)
+    {
+      if(value===true) {
+        var cityData = self.view.lstCities.selectedRowItems;
+        var objSvc = kony.sdk.getCurrentInstance().getObjectService("CoolWeatherDB");
+        var dataObject = new kony.sdk.dto.DataObject("locations");
+        dataObject.addField("userID", getAppUserID());
+        dataObject.addField("cityID", cityData[0].cityId);
+        dataObject.addField("id", cityData[0].userPk);
+        var options = {"dataObject":dataObject};
+
+        objSvc.deleteRecord(options,
+                            function(res){
+          self.fetchData();
+        },
+                            function(err){alert("Failed to deleting : \n" + JSON.stringify(err));}
+                           ); 
+      }
+
+    }
+    var alertBasic = {message:"Kony Alert",alertType:constants.ALERT_TYPE_CONFIRMATION, alertHandler:alertHandlerCallBck};
+    var alertPSP = {};	
+    var alertConfirm = new kony.ui.Alert(alertBasic, alertPSP);
+  }
 
 });
 
