@@ -7,10 +7,10 @@
     "apppackagekey": "",
     "appaddrkey": "",
     "nativeContainerProperties": {
-        "isModified": true,
-        "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
+        "isModified": true,
+        "isEnableJSContaineriOS": true,
+        "isEnableJSContainer": true
     },
     "appnamekey": "cityWeatherApp",
     "currentgaversion": "8.2.4",
