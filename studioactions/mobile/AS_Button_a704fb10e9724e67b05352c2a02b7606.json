@@ -1,0 +1,31 @@
+{
+    "AS_Button_a704fb10e9724e67b05352c2a02b7606": {
+        "id": "AS_Button_a704fb10e9724e67b05352c2a02b7606",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "FBox0e5dd60e68b2f45",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f821ef8e696b4870b5e85850c43461c5"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c01bb19c330c42ee9237114ad5e47270",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "deleteRecord",
+            "display": "deleteRecord",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
