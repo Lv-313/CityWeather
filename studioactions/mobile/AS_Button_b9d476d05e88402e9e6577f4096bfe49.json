@@ -1,0 +1,21 @@
+{
+    "AS_Button_b9d476d05e88402e9e6577f4096bfe49": {
+        "id": "AS_Button_b9d476d05e88402e9e6577f4096bfe49",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "name": "FBox0e5dd60e68b2f45",
+            "type": "templates",
+            "platform": "",
+            "KUID": "f821ef8e696b4870b5e85850c43461c5"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

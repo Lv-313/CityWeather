@@ -25,16 +25,20 @@ define({
 
       service.invokeOperation("getWeatherByCityId", null, {cityId: citiesID},
                               function(response){
-//         alert(JSON.stringify(response));
-        //         self.bindDataToViews(response);
-        self.bindData(response);
+        var responseData = response.weatherList;
+        for(let i=0; i < responseData.length; i++){
+          for(let j=0; j < records.length; j++){
+            if(responseData[i].cityId==records[j].cityID){
+              responseData[i].pk = records[j].id;    
+            }
+          }
+        } 
+        self.bindData(responseData);
       },
                               function(error){
         alert(JSON.stringify(error));
       });
 
-
-      self.bindData(res.records);
     },
                  function(err) {
       alert("Failed to fetch : \n" + JSON.stringify(err));
@@ -45,32 +49,17 @@ define({
   bindData: function(data) {
     const list = this.view.lstCities;
 
-
-
-    //      service.invokeOperation("getWeatherByCityId", null, {cityId: 702550},
-    //        function(response){
-    //              //alert(JSON.stringify(response));
-    //              self.bindDataToViews(response);
-    //        },
-    //        function(error){
-    //              alert(JSON.stringify(error));
-    //        });
- 	
-//     var element = {
-//       weatherIcon: "http://openweathermap.org/img/w/" + data.weatherList[0].weatherIcon + ".png",
-//       cityName: data.weatherList[0].cityName + ", " + data.weatherList[0].country,
-//       tempMin: data.weatherList[0].tempMin,
-//       tempMax: data.weatherList[0].tempMax,
-//     };
-   	var dataInfo = [];
-    for(let i=0; i < data.weatherList.length; i++){
-        var element = {
-          weatherIcon: "http://openweathermap.org/img/w/" + data.weatherList[i].weatherIcon + ".png",
-          cityName: data.weatherList[i].cityName + ", " + data.weatherList[i].country,
-          tempMin: data.weatherList[i].tempMin,
-          tempMax: data.weatherList[i].tempMax,
-    	};
-    	dataInfo.push(element);
+    var dataInfo = [];
+    for(let i=0; i < data.length; i++){
+      var element = {
+        weatherIcon: "http://openweathermap.org/img/w/" + data[i].weatherIcon + ".png",
+        cityName: data[i].cityName + ", " + data[i].country,
+        tempMin: data[i].tempMin,
+        tempMax: data[i].tempMax,
+        cityId: data[i].cityId,
+        userPk: data[i].pk
+      };
+      dataInfo.push(element);
     }
 
     list.widgetDataMap = {
@@ -80,16 +69,40 @@ define({
       lblMaxTemp: "tempMax"
     };
 
-    list.setData(dataInfo); //in case of real id's use addData();
+    list.setData(dataInfo);
   },
 
   navigate: function() {
     const target = new kony.mvc.Navigation('frmSearch');
     target.navigate();
+  },
+
+  deleteRecord: function(){
+    var  self = this;
+    function alertHandlerCallBck(value)
+    {
+      if(value===true) {
+        var cityData = self.view.lstCities.selectedRowItems;
+        var objSvc = kony.sdk.getCurrentInstance().getObjectService("CoolWeatherDB");
+        var dataObject = new kony.sdk.dto.DataObject("locations");
+        dataObject.addField("userID", getAppUserID());
+        dataObject.addField("cityID", cityData[0].cityId);
+        dataObject.addField("id", cityData[0].userPk);
+        var options = {"dataObject":dataObject};
+
+        objSvc.deleteRecord(options,
+                            function(res){
+          self.fetchData();
+        },
+                            function(err){alert("Failed to deleting : \n" + JSON.stringify(err));}
+                           ); 
+      }
+
+    }
+    var alertBasic = {message:"Kony Alert",alertType:constants.ALERT_TYPE_CONFIRMATION, alertHandler:alertHandlerCallBck};
+    var alertPSP = {};	
+    var alertConfirm = new kony.ui.Alert(alertBasic, alertPSP);
   }
 
 });
-
-
-//    list.setData([dataInfo]); //in case of real id's use addData();
 

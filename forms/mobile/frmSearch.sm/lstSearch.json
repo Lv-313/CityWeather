@@ -124,7 +124,7 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
-    "separatorrequired": false,
+    "separatorrequired": true,
     "showscrollbars": true,
     "swipeContext": {
         "currentPage": 0,
