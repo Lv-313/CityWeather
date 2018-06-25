@@ -7,6 +7,8 @@
     "apppackagekey": "",
     "appaddrkey": "",
     "nativeContainerProperties": {
+        "isModified": false,
+        "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
         "isModified": true,
         "isEnableJSContaineriOS": true,
