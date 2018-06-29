@@ -39,6 +39,7 @@
     "focusskin": "s625645ff8b848c79d426ec7719c09e5",
     "id": "btnLogin",
     "ide_onClick": "AS_Button_b6580ec271fb40c1b640687329421d0c",
+    "ide_onTouchStart": "AS_Button_jd2c2172ff5c4d69860b365fe9f67f63",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
