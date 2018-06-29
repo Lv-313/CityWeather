@@ -71,8 +71,7 @@ define({
 
         objSvc.create(options, function(res) {
              kony.application.destroyForm('frmSearch');
-             const target = new kony.mvc.Navigation('frmCities');
-             target.navigate();
+             navigateTo("frmCities");
         }, function(err){
              alert("Error in city creation");
         });     
