@@ -14,6 +14,6 @@ define({
     /** onRowClick defined for lstSearch **/
     AS_Segment_f84b8724569645f180720718efab5c16: function AS_Segment_f84b8724569645f180720718efab5c16(eventobject, sectionNumber, rowNumber) {
         var self = this;
-        return self.create.call(this, null);
+        return self.create.call(this);
     }
 });

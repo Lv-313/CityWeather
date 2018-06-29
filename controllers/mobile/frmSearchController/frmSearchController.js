@@ -45,6 +45,10 @@ define({
 
   create: function() {
     var cityData = this.view.lstSearch.selectedRowItems;
+    
+    // this will avoid multiple choice of the same row in segment list
+    this.view.lstSearch.removeAll();
+    
     var objSvc = kony.sdk.getCurrentInstance().getObjectService("CoolWeatherDB");
     var dataObject = new kony.sdk.dto.DataObject("locations");
     var odataUrl = "$filter=userID eq " + getAppUserID();

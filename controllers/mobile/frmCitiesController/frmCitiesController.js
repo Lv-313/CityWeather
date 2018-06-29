@@ -92,6 +92,7 @@ define({
 
         objSvc.deleteRecord(options,
                             function(res){
+          alert('Records deleted!');
           self.fetchData();
         },
                             function(err){alert("Failed to deleting : \n" + JSON.stringify(err));}
