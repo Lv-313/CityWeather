@@ -6,8 +6,16 @@ define({
     let inp = this.view.inputSearch.text;
 
     function getFilterStartWith(str) {
-      let new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
-      return "$filter=nm ge " + str + " and nm lt " + new_str;
+      if (str !== "") {
+      	let new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
+        return "$filter=nm ge " + str + " and nm lt " + new_str;      
+      } else {
+        str = "a";
+        let new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
+        return "$filter=nm ge " + str + " and nm lt " + new_str;   
+        
+      }
+      
     }
 
     let odataUrl = getFilterStartWith(inp);
@@ -17,7 +25,7 @@ define({
     objSvc.fetch(options, function(res) {
          self.bindData(res.records);
     }, function(err){
-         alert("Failed to fetch : \n" + JSON.stringify(err));
+         alert("Failed to fetch this : \n" + JSON.stringify(err));
        });
   },
 
@@ -60,8 +68,8 @@ define({
       }
       if (res.records.find(equalCityID)) {
         alert("Sorry, but city was added");
-        this.view.inputSearch.text = "";
-        this.searchDataTimer();
+//         this.view.inputSearch.text = "";
+//         this.searchDataTimer();
         
       } else {
         dataObject.addField("userID", getAppUserID());

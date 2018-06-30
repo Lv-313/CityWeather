@@ -33,7 +33,7 @@ define({
                 } 
                 self.bindData(responseData);
       	  }, function(error){
-        	   alert(JSON.stringify(error));
+        	   alert("Integration service error" + JSON.stringify(error));
       });
 
     }, function(err) {
