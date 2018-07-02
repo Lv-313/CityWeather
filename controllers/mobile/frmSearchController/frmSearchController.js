@@ -6,16 +6,11 @@ define({
     let inp = this.view.inputSearch.text;
 
     function getFilterStartWith(str) {
-      if (str !== "") {
-      	let new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
-        return "$filter=nm ge " + str + " and nm lt " + new_str;      
-      } else {
-        str = "a";
-        let new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
-        return "$filter=nm ge " + str + " and nm lt " + new_str;   
-        
+      if (str === "") {
+        str = "a";      
       }
-      
+      let new_str = str.slice(0,str.length-1) + String.fromCharCode(str.charCodeAt(str.length-1)+1);
+      return "$filter=nm ge " + str + " and nm lt " + new_str;         
     }
 
     let odataUrl = getFilterStartWith(inp);
