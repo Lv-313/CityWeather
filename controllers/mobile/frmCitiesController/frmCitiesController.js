@@ -67,8 +67,8 @@ define({
         var element = {
           weatherIcon: "http://openweathermap.org/img/w/" + data.weatherList[i].weatherIcon + ".png",
           cityName: data.weatherList[i].cityName + ", " + data.weatherList[i].country,
-          tempMin: Math.round(data.weatherList[i].tempMin).toString() + " " + "\u2103",
-          tempMax: Math.round(data.weatherList[i].tempMax).toString() + " " + "\u2103",
+          tempMin: Math.round(data.weatherList[i].tempMin).toString() + " " + celciusSymbol,
+          tempMax: Math.round(data.weatherList[i].tempMax).toString() + " " + celciusSymbol,
     	};
     	dataInfo.push(element);
     }
