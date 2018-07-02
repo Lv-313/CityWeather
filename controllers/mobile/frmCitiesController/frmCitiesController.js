@@ -21,6 +21,7 @@ define({
         }
       }
 
+
       intSvc.invokeOperation("getWeatherByCityId", null, {cityId: citiesID},
               function(response){
                 let responseData = response.weatherList;
@@ -40,22 +41,25 @@ define({
          alert("Failed to fetch : \n" + JSON.stringify(err));
        }
     );
+
   },
 
   bindData: function(data) {
     const list = this.view.lstCities;
+
 
     let dataInfo = [];
     for(let i=0; i < data.length; i++){
       let element = {
         weatherIcon: "http://openweathermap.org/img/w/" + data[i].weatherIcon + ".png",
         cityName: data[i].cityName + ", " + data[i].country,
-        tempMin: data[i].tempMin,
-        tempMax: data[i].tempMax,
+	tempMin: Math.round(data.weatherList[i].tempMin).toString() + " " + celciusSymbol,
+        tempMax: Math.round(data.weatherList[i].tempMax).toString() + " " + celciusSymbol,
         cityId: data[i].cityId,
         userPk: data[i].pk
       };
       dataInfo.push(element);
+
     }
 
     list.widgetDataMap = {
@@ -65,13 +69,11 @@ define({
       lblMaxTemp: "tempMax"
     };
 
-    list.setData(dataInfo);
+    list.setData(dataInfo); //in case of real id's use addData();
   },
 
   navigate: function() {
     navigateTo("frmSearch");
-//  const target = new kony.mvc.Navigation('frmSearch');
-//  target.navigate();
   },
 
   deleteRecord: function(){
@@ -105,4 +107,7 @@ define({
   }
 
 });
+
+
+//    list.setData([dataInfo]); //in case of real id's use addData();
 

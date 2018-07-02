@@ -1,4 +1,3 @@
-// User data
 const __userData = {
   userID: undefined
 };
@@ -10,9 +9,10 @@ function getAppUserID() {
 function setAppUserID(userId){
   __userData.userID = userId;
 }
-/////////////////////////////////
 
-// All services
+
+const celciusSymbol = "\u2103";
+
 const service = {
   identity: undefined,
   integration: undefined,
@@ -28,20 +28,18 @@ function setServices () {
 function getIdentityService() {
   return service.identity;
 }
+
 function getIntegrationService() {
   return service.integration;
 }
+
 function getObjectService() {
   return service.object;
 }
-///////////////////////////////////
+
 
 // Navigation to form
 function navigateTo(formName) {
   let target = new kony.mvc.Navigation(formName);
   target.navigate();
 }
-
-
-
-
